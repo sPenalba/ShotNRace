@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 890f78f9d3b74ef8bc572ac0b3c32146, type: 3}
+  m_Name: PartLists
+  m_EditorClassIdentifier: 
+  _chassisList: {fileID: 11400000, guid: 74b92145e8d5e074e9e797e2bb1d41a5, type: 2}
+  _tyresList: {fileID: 11400000, guid: 8da2996643805ae4c90debe0c08ae625, type: 2}
+  _frontBumperList: {fileID: 11400000, guid: 8add5fd89ec4eb441a3bf3a7b9e22923, type: 2}
+  _rearBumperList: {fileID: 11400000, guid: a56b5fc52cc2a5948b7f678b211aa930, type: 2}
+  _fendersList: {fileID: 11400000, guid: a48e33615cc853140aad06c030f32480, type: 2}
+  _grillList: {fileID: 11400000, guid: 807066fe6a4516549b1203d9f5e25dd3, type: 2}
+  _hoodList: {fileID: 11400000, guid: c90cd94c35bc70b4f9cc7d74c739bf2b, type: 2}
+  _roofList: {fileID: 11400000, guid: 46ff406e843abc84c8e174a41cb02c9e, type: 2}
+  _mirrorsList: {fileID: 11400000, guid: 61780338dff68e14c8b31568168b0250, type: 2}
+  _sideSkirtList: {fileID: 11400000, guid: 539a9dedf36edd449b483c22f008df1b, type: 2}
+  _wingList: {fileID: 11400000, guid: 4443263c6ff7538439af87040bf74d7b, type: 2}
+  _headLightsList: {fileID: 11400000, guid: af337c46a9c6b7f4f8f93abceba361ff, type: 2}
+  _tailLightsList: {fileID: 11400000, guid: 24137196dcb5fc24389291ae6f4c55d4, type: 2}
+  _bottomLightsList: {fileID: 11400000, guid: d5f88bb990758734ea74f283564cd8e4, type: 2}

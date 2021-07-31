@@ -342,6 +342,7 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/VSSettingsProvider.ref.dll"
+"Assets/Bounzy/Scripts/Editor/LevelEditor.cs"
 "Assets/Scripts/Editor/PartListEditorWindow.cs"
 "Assets/Scripts/Editor/PartListsEditor.cs"
 -langversion:8.0

@@ -31,158 +31,158 @@ namespace Editor
                 GUILayout.EndVertical();
             }
 
-            GUILayout.BeginVertical();
-            GUILayout.BeginHorizontal();
-            if (_target.ChassisList == null)
-            {
-                GUI.backgroundColor = Color.red;
-                showCreateButton = true;
-            }
-            if (GUILayout.Button("CREATE CHASSIS TYPE", GUILayout.Height(20))) CreateChassis(null, null, null, null);
-            GUILayout.Label(_target.ChassisList.chassisList.Count.ToString());
-            GUILayout.EndHorizontal();
-            GUILayout.Space(10);
-            GUILayout.EndVertical();
-
-            GUILayout.BeginVertical();
-            if (_target.TyresList == null)
-            {
-                GUI.backgroundColor = Color.red;
-                showCreateButton = true;
-            }
-            if (GUILayout.Button("CREATE TYRE TYPE", GUILayout.Height(20))) CreateTyre(null, null, null, null);
-            GUILayout.Space(10);
-            GUILayout.EndVertical();
-
-            GUILayout.BeginVertical();
-            if (_target.FendersList == null)
-            {
-                GUI.backgroundColor = Color.red;
-                showCreateButton = true;
-            }
-            if (GUILayout.Button("CREATE FENDERS TYPE", GUILayout.Height(20))) CreateFenders();
-            GUILayout.Space(10);
-            GUILayout.EndVertical();
-
-            GUILayout.BeginVertical();
-            if (_target.GrillList == null)
-            {
-                GUI.backgroundColor = Color.red;
-                showCreateButton = true;
-            }
-            if (GUILayout.Button("CREATE GRILL TYPE", GUILayout.Height(20))) CreateGrill();
-            GUILayout.Space(10);
-            GUILayout.EndVertical();
-
-            GUILayout.BeginVertical();
-            if (_target.HoodList == null)
-            {
-                GUI.backgroundColor = Color.red;
-                showCreateButton = true;
-            }
-            if (GUILayout.Button("CREATE HOOD TYPE", GUILayout.Height(20))) CreateHood();
-            GUILayout.Space(10);
-            GUILayout.EndVertical();
-
-            GUILayout.BeginVertical();
-            if (_target.MirrorsList == null)
-            {
-                GUI.backgroundColor = Color.red;
-                showCreateButton = true;
-            }
-            if (GUILayout.Button("CREATE MIRROR TYPE", GUILayout.Height(20))) CreateMirror();
-            GUILayout.Space(10);
-            GUILayout.EndVertical();
-
-            GUILayout.BeginVertical();
-            if (_target.RoofList == null)
-            {
-                GUI.backgroundColor = Color.red;
-                showCreateButton = true;
-            }
-            if (GUILayout.Button("CREATE ROOF TYPE", GUILayout.Height(20))) CreateRoof();
-            GUILayout.Space(10);
-            GUILayout.EndVertical();
-
-            GUILayout.BeginVertical();
-            if (_target.WingList == null)
-            {
-                GUI.backgroundColor = Color.red;
-                showCreateButton = true;
-            }
-            if (GUILayout.Button("CREATE WING TYPE", GUILayout.Height(20))) CreateWing();
-            GUILayout.Space(10);
-            GUILayout.EndVertical();
-
-            GUILayout.BeginVertical();
-            if (_target.BottomLightsList == null)
-            {
-                GUI.backgroundColor = Color.red;
-                showCreateButton = true;
-            }
-            if (GUILayout.Button("CREATE BOTTOM LIGHT TYPE", GUILayout.Height(20))) CreateBottomLight();
-            GUILayout.Space(10);
-            GUILayout.EndVertical();
-
-            GUILayout.BeginVertical();
-            if (_target.HeadLightsList == null)
-            {
-                GUI.backgroundColor = Color.red;
-                showCreateButton = true;
-            }
-            if (GUILayout.Button("CREATE HEADLIGHT TYPE", GUILayout.Height(20))) CreateHeadLight();
-            GUILayout.Space(10);
-            GUILayout.EndVertical();
-
-            GUILayout.BeginVertical();
-            if (_target.TailLightsList == null)
-            {
-                GUI.backgroundColor = Color.red;
-                showCreateButton = true;
-            }
-            if (GUILayout.Button("CREATE TAILLIGHT TYPE", GUILayout.Height(20))) CreateTailLight();
-            GUILayout.Space(10);
-            GUILayout.EndVertical();
-
-            GUILayout.BeginVertical();
-            if (_target.FrontBumperList == null)
-            {
-                GUI.backgroundColor = Color.red;
-                showCreateButton = true;
-            }
-            if (GUILayout.Button("CREATE FRONT BUMPER TYPE", GUILayout.Height(20))) CreateFrontBumper();
-            GUILayout.Space(10);
-            GUILayout.EndVertical();
-
-            GUILayout.BeginVertical();
-            if (_target.RearBumperList == null)
-            {
-                GUI.backgroundColor = Color.red;
-                showCreateButton = true;
-            }
-            if (GUILayout.Button("CREATE REAR BUMPER TYPE", GUILayout.Height(20))) CreateRearBumper();
-            GUILayout.Space(10);
-            GUILayout.EndVertical();
-
-            GUILayout.BeginVertical();
-            if (_target.SideSkirtList == null)
-            {
-                GUI.backgroundColor = Color.red;
-                showCreateButton = true;
-            }
-            if (GUILayout.Button("CREATE SIDE SKIRT TYPE", GUILayout.Height(20))) CreateSideSkirt();
-            GUILayout.Space(10);
-            GUILayout.EndVertical();
-
-            GUILayout.BeginVertical();
-            if (_target.SideSkirtList == null)
-            {
-                GUI.backgroundColor = Color.red;
-                showCreateButton = true;
-            }
-            if (GUILayout.Button("CREATE SIDE SKIRT TYPE", GUILayout.Height(20))) CreateSideSkirt();
-            GUILayout.Space(10);
-            GUILayout.EndVertical();
+            // GUILayout.BeginVertical();
+            // GUILayout.BeginHorizontal();
+            // if (_target.ChassisList == null)
+            // {
+            //     GUI.backgroundColor = Color.red;
+            //     showCreateButton = true;
+            // }
+            // if (GUILayout.Button("CREATE CHASSIS TYPE", GUILayout.Height(20))) CreateChassis(null, null, null, null);
+            // GUILayout.Label(_target.ChassisList.chassisList.Count.ToString());
+            // GUILayout.EndHorizontal();
+            // GUILayout.Space(10);
+            // GUILayout.EndVertical();
+            //
+            // GUILayout.BeginVertical();
+            // if (_target.TyresList == null)
+            // {
+            //     GUI.backgroundColor = Color.red;
+            //     showCreateButton = true;
+            // }
+            // if (GUILayout.Button("CREATE TYRE TYPE", GUILayout.Height(20))) CreateTyre(null, null, null, null);
+            // GUILayout.Space(10);
+            // GUILayout.EndVertical();
+            //
+            // GUILayout.BeginVertical();
+            // if (_target.FendersList == null)
+            // {
+            //     GUI.backgroundColor = Color.red;
+            //     showCreateButton = true;
+            // }
+            // if (GUILayout.Button("CREATE FENDERS TYPE", GUILayout.Height(20))) CreateFenders();
+            // GUILayout.Space(10);
+            // GUILayout.EndVertical();
+            //
+            // GUILayout.BeginVertical();
+            // if (_target.GrillList == null)
+            // {
+            //     GUI.backgroundColor = Color.red;
+            //     showCreateButton = true;
+            // }
+            // if (GUILayout.Button("CREATE GRILL TYPE", GUILayout.Height(20))) CreateGrill();
+            // GUILayout.Space(10);
+            // GUILayout.EndVertical();
+            //
+            // GUILayout.BeginVertical();
+            // if (_target.HoodList == null)
+            // {
+            //     GUI.backgroundColor = Color.red;
+            //     showCreateButton = true;
+            // }
+            // if (GUILayout.Button("CREATE HOOD TYPE", GUILayout.Height(20))) CreateHood();
+            // GUILayout.Space(10);
+            // GUILayout.EndVertical();
+            //
+            // GUILayout.BeginVertical();
+            // if (_target.MirrorsList == null)
+            // {
+            //     GUI.backgroundColor = Color.red;
+            //     showCreateButton = true;
+            // }
+            // if (GUILayout.Button("CREATE MIRROR TYPE", GUILayout.Height(20))) CreateMirror();
+            // GUILayout.Space(10);
+            // GUILayout.EndVertical();
+            //
+            // GUILayout.BeginVertical();
+            // if (_target.RoofList == null)
+            // {
+            //     GUI.backgroundColor = Color.red;
+            //     showCreateButton = true;
+            // }
+            // if (GUILayout.Button("CREATE ROOF TYPE", GUILayout.Height(20))) CreateRoof();
+            // GUILayout.Space(10);
+            // GUILayout.EndVertical();
+            //
+            // GUILayout.BeginVertical();
+            // if (_target.WingList == null)
+            // {
+            //     GUI.backgroundColor = Color.red;
+            //     showCreateButton = true;
+            // }
+            // if (GUILayout.Button("CREATE WING TYPE", GUILayout.Height(20))) CreateWing();
+            // GUILayout.Space(10);
+            // GUILayout.EndVertical();
+            //
+            // GUILayout.BeginVertical();
+            // if (_target.BottomLightsList == null)
+            // {
+            //     GUI.backgroundColor = Color.red;
+            //     showCreateButton = true;
+            // }
+            // if (GUILayout.Button("CREATE BOTTOM LIGHT TYPE", GUILayout.Height(20))) CreateBottomLight();
+            // GUILayout.Space(10);
+            // GUILayout.EndVertical();
+            //
+            // GUILayout.BeginVertical();
+            // if (_target.HeadLightsList == null)
+            // {
+            //     GUI.backgroundColor = Color.red;
+            //     showCreateButton = true;
+            // }
+            // if (GUILayout.Button("CREATE HEADLIGHT TYPE", GUILayout.Height(20))) CreateHeadLight();
+            // GUILayout.Space(10);
+            // GUILayout.EndVertical();
+            //
+            // GUILayout.BeginVertical();
+            // if (_target.TailLightsList == null)
+            // {
+            //     GUI.backgroundColor = Color.red;
+            //     showCreateButton = true;
+            // }
+            // if (GUILayout.Button("CREATE TAILLIGHT TYPE", GUILayout.Height(20))) CreateTailLight();
+            // GUILayout.Space(10);
+            // GUILayout.EndVertical();
+            //
+            // GUILayout.BeginVertical();
+            // if (_target.FrontBumperList == null)
+            // {
+            //     GUI.backgroundColor = Color.red;
+            //     showCreateButton = true;
+            // }
+            // if (GUILayout.Button("CREATE FRONT BUMPER TYPE", GUILayout.Height(20))) CreateFrontBumper();
+            // GUILayout.Space(10);
+            // GUILayout.EndVertical();
+            //
+            // GUILayout.BeginVertical();
+            // if (_target.RearBumperList == null)
+            // {
+            //     GUI.backgroundColor = Color.red;
+            //     showCreateButton = true;
+            // }
+            // if (GUILayout.Button("CREATE REAR BUMPER TYPE", GUILayout.Height(20))) CreateRearBumper();
+            // GUILayout.Space(10);
+            // GUILayout.EndVertical();
+            //
+            // GUILayout.BeginVertical();
+            // if (_target.SideSkirtList == null)
+            // {
+            //     GUI.backgroundColor = Color.red;
+            //     showCreateButton = true;
+            // }
+            // if (GUILayout.Button("CREATE SIDE SKIRT TYPE", GUILayout.Height(20))) CreateSideSkirt();
+            // GUILayout.Space(10);
+            // GUILayout.EndVertical();
+            //
+            // GUILayout.BeginVertical();
+            // if (_target.SideSkirtList == null)
+            // {
+            //     GUI.backgroundColor = Color.red;
+            //     showCreateButton = true;
+            // }
+            // if (GUILayout.Button("CREATE SIDE SKIRT TYPE", GUILayout.Height(20))) CreateSideSkirt();
+            // GUILayout.Space(10);
+            // GUILayout.EndVertical();
 
 
             serializedObject.ApplyModifiedProperties();
@@ -288,6 +288,8 @@ namespace Editor
             Selection.activeObject = _target;
 
             var chassis = CreateInstance<Chassis>();
+            if (_target == null)
+                _target = AssetDatabase.LoadAssetAtPath<PartLists>("Assets/Data/VehicleParts/PartLists.asset");
             var list = _target.ChassisList.chassisList;
 
             if(!AssetDatabase.IsValidFolder(DataPath + "Chassis/"))

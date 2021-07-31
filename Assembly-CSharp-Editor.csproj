@@ -41,8 +41,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Editor\PartListsEditor.cs" />
+     <Compile Include="Assets\Bounzy\Scripts\Editor\LevelEditor.cs" />
      <Compile Include="Assets\Scripts\Editor\PartListEditorWindow.cs" />
+     <Compile Include="Assets\Scripts\Editor\PartListsEditor.cs" />
      <Reference Include="UnityEngine">
      <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>

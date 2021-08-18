@@ -308,9 +308,7 @@ namespace Editor
             var _chassis = go.GetComponent<DefaultChassis>();
             
             mesh.transform.parent = go.transform;
-            
 
-            
             _chassis.Chassis = chassis;
             _chassis.Chassis.ChassisId = id;
             _chassis.Chassis.ChassisName = name;

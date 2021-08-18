@@ -49,7 +49,6 @@
      <Compile Include="Assets\Scripts\MainGame\VehicleBuilder\VehicleBuilder.cs" />
      <Compile Include="Assets\Scripts\MainGame\VehicleBuilder\RearBumper.cs" />
      <Compile Include="Assets\Scripts\MainGame\VehicleBuilder\Lists\TailLightsList.cs" />
-     <Compile Include="Assets\Bounzy\Scripts\Levels.cs" />
      <Compile Include="Assets\Scripts\MainGame\VehicleBuilder\Fenders.cs" />
      <Compile Include="Assets\Scripts\MainGame\VehicleBuilder\Consumer.cs" />
      <Compile Include="Assets\Scripts\MainGame\VehicleBuilder\Roof.cs" />
@@ -69,7 +68,6 @@
      <Compile Include="Assets\Scripts\MainGame\VehicleBuilder\BottomLights.cs" />
      <Compile Include="Assets\Scripts\MainGame\VehicleBuilder\Lists\RoofList.cs" />
      <Compile Include="Assets\Scripts\MainGame\VehicleBuilder\Lists\WingList.cs" />
-     <Compile Include="Assets\Bounzy\Scripts\LevelConfig.cs" />
      <Compile Include="Assets\Scripts\MainGame\VehicleBuilder\Wing.cs" />
      <Compile Include="Assets\Scripts\MainGame\VehicleBuilder\Mirrors.cs" />
      <Compile Include="Assets\Scripts\MainGame\VehicleBuilder\DefaultChassis.cs" />
@@ -78,9 +76,6 @@
      <Compile Include="Assets\Scripts\MainGame\VehicleBuilder\Lists\BottomLightsList.cs" />
      <Compile Include="Assets\Scripts\MainGame\VehicleBuilder\Lists\HoodList.cs" />
      <Compile Include="Assets\Scripts\MainGame\VehicleBuilder\Lists\SideSkirtList.cs" />
-     <Compile Include="Assets\Bounzy\Scripts\Block.cs" />
-     <Compile Include="Assets\Bounzy\Scripts\BlockDefault.cs" />
-     <Compile Include="Assets\Bounzy\Scripts\BlockList.cs" />
      <Reference Include="UnityEngine">
      <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>

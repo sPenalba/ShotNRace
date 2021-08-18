@@ -41,7 +41,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Bounzy\Scripts\Editor\LevelEditor.cs" />
      <Compile Include="Assets\Scripts\Editor\PartListEditorWindow.cs" />
      <Compile Include="Assets\Scripts\Editor\PartListsEditor.cs" />
      <Reference Include="UnityEngine">

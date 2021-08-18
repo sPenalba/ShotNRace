@@ -153,8 +153,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allLevels:
+  - showBoard: 0
+    rows: 10
+    column: 10
   - showBoard: 1
-    rows: 6
+    rows: 10
     column: 10
 --- !u!4 &696224460
 Transform:
